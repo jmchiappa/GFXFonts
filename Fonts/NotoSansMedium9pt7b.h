@@ -95,7 +95,7 @@ const uint8_t NotoSansMedium9pt7bBitmaps[] PROGMEM = {
   0xFF, 0xFF, 0xFF, 0xC0, 0x87, 0x18, 0xC6, 0x31, 0x87, 0x39, 0x18, 0xC6,
   0x33, 0x98, 0xFD, 0x8F };
 
-const GFXglyph NotoSans_Medium9pt7bGlyphs[] PROGMEM = {
+const GFXglyph NotoSansMedium9pt7bGlyphs[] PROGMEM = {
   {     0,   1,   1,   5,    0,    0 },   // 0x20 ' '
   {     1,   3,  13,   5,    1,  -12 },   // 0x21 '!'
   {     6,   5,   5,   8,    1,  -12 },   // 0x22 '"'
@@ -192,9 +192,9 @@ const GFXglyph NotoSans_Medium9pt7bGlyphs[] PROGMEM = {
   {  1120,   5,  16,   7,    1,  -12 },   // 0x7D '}'
   {  1130,   8,   2,  10,    1,   -6 } }; // 0x7E '~'
 
-const GFXfont NotoSans_Medium9pt7b PROGMEM = {
-  (uint8_t  *)NotoSans_Medium9pt7bBitmaps,
-  (GFXglyph *)NotoSans_Medium9pt7bGlyphs,
+const GFXfont NotoSansMedium9pt7b PROGMEM = {
+  (uint8_t  *)NotoSansMedium9pt7bBitmaps,
+  (GFXglyph *)NotoSansMedium9pt7bGlyphs,
   0x20, 0x7E, 24 };
 
 // Approx. 1804 bytes

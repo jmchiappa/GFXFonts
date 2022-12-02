@@ -65,7 +65,7 @@ const uint8_t PoppinsMedium7pt7bBitmaps[] PROGMEM = {
   0x8C, 0x63, 0x18, 0xDC, 0xE1, 0x8C, 0x63, 0x18, 0xC3, 0xFF, 0xFF, 0xFF,
   0xC0, 0xC6, 0x66, 0x66, 0x63, 0x36, 0x66, 0x66, 0x6C, 0x72, 0x98 };
 
-const GFXglyph Poppins_Medium7pt7bGlyphs[] PROGMEM = {
+const GFXglyph PoppinsMedium7pt7bGlyphs[] PROGMEM = {
   {     0,   1,   1,   4,    0,    0 },   // 0x20 ' '
   {     1,   2,  10,   4,    1,   -9 },   // 0x21 '!'
   {     4,   3,   3,   5,    1,  -10 },   // 0x22 '"'
@@ -162,9 +162,9 @@ const GFXglyph Poppins_Medium7pt7bGlyphs[] PROGMEM = {
   {   769,   4,  16,   7,    2,  -13 },   // 0x7D '}'
   {   777,   7,   2,   8,    0,   -5 } }; // 0x7E '~'
 
-const GFXfont Poppins_Medium7pt7b PROGMEM = {
-  (uint8_t  *)Poppins_Medium7pt7bBitmaps,
-  (GFXglyph *)Poppins_Medium7pt7bGlyphs,
+const GFXfont PoppinsMedium7pt7b PROGMEM = {
+  (uint8_t  *)PoppinsMedium7pt7bBitmaps,
+  (GFXglyph *)PoppinsMedium7pt7bGlyphs,
   0x20, 0x7E, 21 };
 
 // Approx. 1451 bytes

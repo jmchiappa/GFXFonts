@@ -57,7 +57,7 @@ const uint8_t RobotoRegular7pt7bBitmaps[] PROGMEM = {
   0x46, 0x22, 0x1F, 0x36, 0x44, 0x44, 0x84, 0x44, 0x44, 0x63, 0xFF, 0xF0,
   0xC6, 0x22, 0x22, 0x12, 0x22, 0x22, 0x6C, 0x71, 0xDB, 0x8E };
 
-const GFXglyph Roboto_Regular7pt7bGlyphs[] PROGMEM = {
+const GFXglyph RobotoRegular7pt7bGlyphs[] PROGMEM = {
   {     0,   1,   1,   3,    0,    0 },   // 0x20 ' '
   {     1,   2,  10,   4,    1,   -9 },   // 0x21 '!'
   {     4,   3,   4,   4,    1,  -10 },   // 0x22 '"'
@@ -154,9 +154,9 @@ const GFXglyph Roboto_Regular7pt7bGlyphs[] PROGMEM = {
   {   672,   4,  14,   5,    0,  -10 },   // 0x7D '}'
   {   679,   8,   3,  10,    1,   -4 } }; // 0x7E '~'
 
-const GFXfont Roboto_Regular7pt7b PROGMEM = {
-  (uint8_t  *)Roboto_Regular7pt7bBitmaps,
-  (GFXglyph *)Roboto_Regular7pt7bGlyphs,
+const GFXfont RobotoRegular7pt7b PROGMEM = {
+  (uint8_t  *)RobotoRegular7pt7bBitmaps,
+  (GFXglyph *)RobotoRegular7pt7bGlyphs,
   0x20, 0x7E, 16 };
 
 // Approx. 1354 bytes
